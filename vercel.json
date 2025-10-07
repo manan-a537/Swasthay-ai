@@ -1,26 +1,12 @@
 {
-  "version": 2,
-  "name": "swasthyaai",
-  "builds": [
-    {
-      "src": "dist/server/node-build.mjs",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": [
-          "dist/spa/**",
-          "public/**",
-          "eng.traineddata",
-          "data/**",
-          "public/tessdata/**"
-        ]
-      }
-    }
-  ],
-  "installCommand": "npm install",
   "buildCommand": "npm run build",
   "outputDirectory": "dist/spa",
+  "installCommand": "npm install",
   "framework": null,
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
