@@ -1,21 +1,6 @@
 {
   "version": 2,
   "name": "swasthyaai",
-  "builds": [
-    {
-      "src": "dist/server/node-build.mjs",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": [
-          "dist/spa/**",
-          "public/**",
-          "eng.traineddata",
-          "data/**",
-          "public/tessdata/**"
-        ]
-      }
-    }
-  ],
   "routes": [
     {
       "src": "/api/(.*)",
@@ -29,7 +14,14 @@
   "functions": {
     "dist/server/node-build.mjs": {
       "maxDuration": 30,
-      "memory": 1024
+      "memory": 1024,
+      "includeFiles": [
+        "dist/spa/**",
+        "public/**",
+        "eng.traineddata",
+        "data/**",
+        "public/tessdata/**"
+      ]
     }
   },
   "installCommand": "npm install",
