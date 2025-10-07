@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Dr. Asha Mehta",
+    "specialization": "Cardiologist",
+    "experience": 18,
+    "rating": 4.7,
+    "email": "dr.asha.mehta@heartcare.in",
+    "phone": "+91 6378614902",
+    "lat": 19.076,
+    "long": 72.8777
+  },
+  {
+    "name": "Dr. Rajiv Kumar",
+    "specialization": "General Physician",
+    "experience": 12,
+    "rating": 4.5,
+    "email": "dr.rajiv.kumar@familycare.in",
+    "phone": "+91 6378614902",
+    "lat": 28.7041,
+    "long": 77.1025
+  },
+  {
+    "name": "Dr. Nisha Iyer",
+    "specialization": "Dermatologist",
+    "experience": 9,
+    "rating": 4.4,
+    "email": "dr.nisha.iyer@skincare.in",
+    "phone": "+91 6378614902",
+    "lat": 13.0827,
+    "long": 80.2707
+  },
+  {
+    "name": "Dr. Abdul Rahman",
+    "specialization": "Endocrinologist",
+    "experience": 15,
+    "rating": 4.6,
+    "email": "dr.abdul.rahman@diabetescare.in",
+    "phone": "+91 6378614902",
+    "lat": 12.9716,
+    "long": 77.5946
+  },
+  {
+    "name": "Dr. Priya Sharma",
+    "specialization": "Gynecologist",
+    "experience": 11,
+    "rating": 4.3,
+    "email": "dr.priya.sharma@womenshealth.in",
+    "phone": "+91 6378614902",
+    "lat": 22.5726,
+    "long": 88.3639
+  }
+]
